@@ -9,3 +9,5 @@ kubectl apply -f .
 ```
 
 And than use `kubectl get nodes`, to see the new label apply to the nodes.
+
+The code here is based upon this [example](https://github.com/kubernetes-client/python/blob/master/examples/manage_node_labels.py), from the official k8s python client repository.
